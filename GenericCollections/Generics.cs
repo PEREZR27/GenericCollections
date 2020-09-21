@@ -21,13 +21,13 @@ namespace GenericCollections
         }
         private void linkedMethod()
         {
-            LinkedList<string> listvs = new LinkedList<string>();
+            LinkedList<string> listOne = new LinkedList<string>();
             Console.WriteLine("2. Linked List \n");
             foreach (string one in new string[5] { "First", "Second", "Third", "Fourth", "Fifth" })
             {
-                listvs.AddFirst(one);
+                listOne.AddFirst(one);
             }
-            foreach (string one in listvs)
+            foreach (string one in listOne)
             {
                 Console.WriteLine(one);
             }
